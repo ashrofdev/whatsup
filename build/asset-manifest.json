@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/AWE/static/css/main.294e97af.chunk.css",
+    "main.js": "/AWE/static/js/main.c53970cd.chunk.js",
+    "main.js.map": "/AWE/static/js/main.c53970cd.chunk.js.map",
+    "runtime-main.js": "/AWE/static/js/runtime-main.e9b23495.js",
+    "runtime-main.js.map": "/AWE/static/js/runtime-main.e9b23495.js.map",
+    "static/js/2.67150e9f.chunk.js": "/AWE/static/js/2.67150e9f.chunk.js",
+    "static/js/2.67150e9f.chunk.js.map": "/AWE/static/js/2.67150e9f.chunk.js.map",
+    "index.html": "/AWE/index.html",
+    "precache-manifest.2916f08c3c694859082abbabe7ac98aa.js": "/AWE/precache-manifest.2916f08c3c694859082abbabe7ac98aa.js",
+    "service-worker.js": "/AWE/service-worker.js",
+    "static/css/main.294e97af.chunk.css.map": "/AWE/static/css/main.294e97af.chunk.css.map",
+    "static/media/1.jpg": "/AWE/static/media/1.1953b82d.jpg",
+    "static/media/2.jpg": "/AWE/static/media/2.f3c354db.jpg",
+    "static/media/portfolio.css": "/AWE/static/media/3.2838f321.jpg",
+    "static/media/4.jpg": "/AWE/static/media/4.71b409fb.jpg",
+    "static/media/5.jpg": "/AWE/static/media/5.b6c27d52.jpg",
+    "static/media/6.jpg": "/AWE/static/media/6.5eeabffb.jpg",
+    "static/media/7.jpg": "/AWE/static/media/7.95e59093.jpg",
+    "static/media/8.jpg": "/AWE/static/media/8.427b8608.jpg",
+    "static/media/c.jpg": "/AWE/static/media/c.a5668c1c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9b23495.js",
+    "static/js/2.67150e9f.chunk.js",
+    "static/css/main.294e97af.chunk.css",
+    "static/js/main.c53970cd.chunk.js"
+  ]
+}

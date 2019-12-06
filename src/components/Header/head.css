@@ -1,0 +1,45 @@
+.header {
+    background-color: rgb(0, 153, 255);
+}
+.header .heading {
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.header .top {
+    display: flex;
+    padding: 5rem 3rem;
+    align-items: center;
+}
+.logo img {
+   width: 8rem;
+}
+
+
+@media only screen and (max-width: 490px) {
+    .slider, .slider .slide {
+        height: 75vh;
+        width: 100vw;
+    }
+
+    .slider h1 {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+   
+}
+@media only screen and (max-width: 345px) {
+    .slider, .slider .slide {
+        height: 65vh;
+    }
+    .logo {
+        width: 4rem;
+    }
+    .slider h1 {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        font-size: 1.6rem;
+    }
+}
