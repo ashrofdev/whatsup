@@ -5,17 +5,32 @@
     padding: 5rem;
 }
 .landing h2 {
-    padding: 3rem;
+    padding: 2rem;
     font-size: 4rem;
+    line-height: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.landing h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 .landing form {
     border: 1px solid black;
     padding: 2rem;
     justify-self: flex-end;
+    width: 70%;
 }
 .landing form input {
     width: 90%;
+    font-size: 1.5rem;
     padding: 1rem;
+    outline: none;
     margin: auto;
     margin-bottom: 1rem;
+}
+button {
+    outline: none;
+    background-color: var( --color-primary);
+    padding: 1rem 2rem;
+    color: white;
 }
