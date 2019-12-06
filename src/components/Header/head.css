@@ -4,15 +4,15 @@
 .header .heading {
     color: white;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .header .top {
     display: flex;
-    padding: 5rem 3rem;
-    align-items: center;
+    padding: 2rem 3rem;
+    align-items: flex-end;
 }
 .logo img {
-   width: 8rem;
+   width: 5rem;
 }
 
 
