@@ -58,13 +58,106 @@ class App extends Component {
               status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
             }
           ]
+        },
+        {
+          name: 'Samuel Daniel',
+          department: 'Arts',
+          messages: [
+            {
+              sender: 'ashraf',
+              message: 'yoyoyoyoyoyoyooyoy'
+            },
+            {
+              sender: 'temi',
+              message: 'enjoying that'
+            }
+          ],
+          status: [
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            }
+          ]
+        },{
+          name: 'Olabiyi Daniel',
+          department: 'Microbiology',
+          messages: [
+            {
+              sender: 'ashraf',
+              message: 'HI man'
+            },
+            {
+              sender: 'temi',
+              message: 'Hello there'
+            }
+          ],
+          status: [
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            }
+          ]
+        },{
+          name: 'Remi Olaiwola',
+          department: 'Geography',
+          messages: [
+            {
+              sender: 'ashraf',
+              message: 'where is the map'
+            },
+            {
+              sender: 'temi',
+              message: 'go check the satellite'
+            }
+          ],
+          status: [
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            }
+          ]
         }
       ],
       followers: 0,
       following: 0,
     }
     this.setState({user: regDetails})
-    console.log(this.state.user)
     this.setState({route: 'home'})
   }
   

@@ -2,6 +2,15 @@ import React from 'react';
 import './home.css'
 
 const Home = ({user}) => {
+    const friends = user.friends
+    const friend = friends.map((i,e)=>{
+        return (
+            <div className="friend">
+                <h3>{i.name}</h3>
+                <p>{i.department}</p>
+            </div>
+        )
+    })
     return (
         <div className="home">
             <header>
@@ -18,6 +27,11 @@ const Home = ({user}) => {
                     </ul>
                 </nav>
             </header>
+            <body>
+                <section className="friends">
+                    {friend}
+                </section>
+            </body>
         </div>
     );
 };
