@@ -3,6 +3,26 @@
 }
 
 .home header {
-    padding: 1rem 3rem;
+    padding: .7rem 3rem;
     background-color: var(--color-primary-dark);
+    display: flex;
+    align-items: center;
+}
+.home nav {
+    width: 40rem;
+    margin-left: 5rem;
+}
+.home ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.home ul li {
+    padding: 1rem;
+    transition: all .4s;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.home ul li:hover {
+    background-color: rgba(255, 255, 255, 0.267);
 }
