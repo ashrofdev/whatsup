@@ -1,6 +1,7 @@
 import React from 'react';
-import Slider from 'react-slick'
 import './head.css'
+
+import Slide from 'react-reveal/Zoom'
 
 const Header = () => {
     // const settings = {
@@ -15,7 +16,15 @@ const Header = () => {
                 <figure className="logo">
                     <img  src={require('../img/logo.png')}/>
                 </figure>
-                <h1 className="heading">WHATSUP</h1>
+                <div className="heading">
+                    <Slide left delay={500} duration={2000}>W</Slide>
+                    <Slide top delay={1000} duration={2000}>H</Slide>
+                    <Slide right delay={1500} duration={2000}>A</Slide>
+                    <Slide bottom delay={2000} duration={2000}>T</Slide>
+                    <Slide left delay={2500} duration={2000}>S</Slide>
+                    <Slide top delay={3000} duration={2000}>U</Slide>
+                    <Slide right delay={3500} duration={2000}>P</Slide>
+                </div>
             </div>
         </div>
     );

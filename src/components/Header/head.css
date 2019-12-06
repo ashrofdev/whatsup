@@ -5,6 +5,7 @@
     color: white;
     font-weight: 900;
     font-size: 2rem;
+    display: flex;
 }
 .header .top {
     display: flex;

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './app.css'
 
 import { firebaseDB } from './Server';
-// import { regDetails } from './components/DomEls'
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -16,17 +15,7 @@ class App extends Component {
       user: {},
       route: 'landing'
   }
-  async componentDidMount(){
-    const clients = []
-    await firebaseDB.ref('clients').once('value').then((snapshot)=>{
-      snapshot.forEach(e=>{
-        clients.push(e.val())
-      })
-      
-    })
-    this.setState({clients: clients})
 
-  }
 
   renderUser = (e) => {
     e.preventDefault()
@@ -37,6 +26,42 @@ class App extends Component {
       phone: document.querySelector('.phone').value,
       date: document.querySelector('.date').value,
       password: document.querySelector('.password').value,
+      friends: [
+        {
+          name: 'Saade Michel',
+          department: 'computer science',
+          messages: [
+            {
+              sender: 'ashraf',
+              message: 'this is a test message'
+            },
+            {
+              sender: 'temi',
+              message: 'from me'
+            }
+          ],
+          status: [
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            },
+            {
+              type: 'video, image, text',
+              status: 'https://kjetu578thqb57thq5on5q78h5iuhq587h45m4q85hm45hm'
+            }
+          ]
+        }
+      ],
+      followers: 0,
+      following: 0,
     }
     this.setState({user: regDetails})
     console.log(this.state.user)
@@ -51,7 +76,7 @@ class App extends Component {
         {this.state.route === 'landing'? 
           <LandPage renderUser={this.renderUser}/>:
           this.state.route === 'home'?
-            <Home/>:
+            <Home user={this.state.user}/>:
             null
           
         }
