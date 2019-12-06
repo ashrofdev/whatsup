@@ -2,7 +2,12 @@ import React from 'react';
 import './home.css'
 
 const Home = ({user}) => {
+    // extracting arrays from user object
     const friends = user.friends
+    const status = user.status
+
+
+    // rendering the list of friends
     const friend = friends.map((i,e)=>{
         return (
             <div className="friend">
@@ -30,6 +35,9 @@ const Home = ({user}) => {
             <body>
                 <section className="friends">
                     {friend}
+                </section>
+                <section className="status">
+
                 </section>
             </body>
         </div>

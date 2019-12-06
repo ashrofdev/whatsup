@@ -27,7 +27,7 @@
     background-color: rgba(255, 255, 255, 0.267);
 }
 .friend {
-    padding: 1rem;
+    padding: 1rem 2rem;
     cursor: pointer;
 }
 .friend:hover {
@@ -38,4 +38,7 @@
     margin: 0;
     font-size: 1.3rem;
     font-weight: 600;
+}
+.friend p {
+    font-style: italic;
 }
