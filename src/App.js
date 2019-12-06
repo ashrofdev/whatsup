@@ -6,6 +6,7 @@ import { scroller } from 'react-scroll'
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import LandPage from './components/landingPage/LandPage';
 
 
 class App extends Component {
@@ -24,27 +25,13 @@ class App extends Component {
     this.setState({clients: clients})
 
   }
-  authenticate = () => {
-    console.log('222')
-    const pass = prompt('ENTER PASSWORD')
-    if (pass === this.state.password) {
-        document.querySelector('.jobs').classList.add('show')
-        scroller.scrollTo('jobs', {
-            duration: 1000,
-            delay: 0,
-            smooth: true
-        })
-    } else {
-      alert('wrong password')
-    }
-  }
-
   
   render() {
     
     return (
       <div className="App">
         <Header/>
+        <LandPage/>
         <Footer/>
       </div>
     );
