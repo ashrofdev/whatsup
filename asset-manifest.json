@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/whatsup/static/css/main.84fad77e.chunk.css",
+    "main.js": "/whatsup/static/js/main.85f39f07.chunk.js",
+    "main.js.map": "/whatsup/static/js/main.85f39f07.chunk.js.map",
+    "runtime-main.js": "/whatsup/static/js/runtime-main.6e976ec1.js",
+    "runtime-main.js.map": "/whatsup/static/js/runtime-main.6e976ec1.js.map",
+    "static/js/2.9ff93301.chunk.js": "/whatsup/static/js/2.9ff93301.chunk.js",
+    "static/js/2.9ff93301.chunk.js.map": "/whatsup/static/js/2.9ff93301.chunk.js.map",
+    "index.html": "/whatsup/index.html",
+    "precache-manifest.52ff5525af2f9052c14220ebc2a7bdf7.js": "/whatsup/precache-manifest.52ff5525af2f9052c14220ebc2a7bdf7.js",
+    "service-worker.js": "/whatsup/service-worker.js",
+    "static/css/main.84fad77e.chunk.css.map": "/whatsup/static/css/main.84fad77e.chunk.css.map",
+    "static/media/logo.png": "/whatsup/static/media/logo.5a6a464d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e976ec1.js",
+    "static/js/2.9ff93301.chunk.js",
+    "static/css/main.84fad77e.chunk.css",
+    "static/js/main.85f39f07.chunk.js"
+  ]
+}
